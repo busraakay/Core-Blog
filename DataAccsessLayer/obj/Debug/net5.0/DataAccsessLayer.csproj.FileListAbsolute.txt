@@ -1,0 +1,17 @@
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.deps.json
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.runtimeconfig.json
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.runtimeconfig.dev.json
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\ref\DataAccsessLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.pdb
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\EntitiyLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\bin\Debug\net5.0\EntitiyLayer.pdb
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.csproj.AssemblyReference.cache
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.AssemblyInfoInputs.cache
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.AssemblyInfo.cs
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\ref\DataAccsessLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.pdb
+C:\Users\busra\source\repos\Intern\CoreProject\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.genruntimeconfig.cache

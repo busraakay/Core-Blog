@@ -1,0 +1,12 @@
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\bin\Debug\net5.0\EntitiyLayer.deps.json
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\bin\Debug\net5.0\EntitiyLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\bin\Debug\net5.0\ref\EntitiyLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\bin\Debug\net5.0\EntitiyLayer.pdb
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.csproj.AssemblyReference.cache
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.AssemblyInfoInputs.cache
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.AssemblyInfo.cs
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.csproj.CoreCompileInputs.cache
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\ref\EntitiyLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\EntitiyLayer\obj\Debug\net5.0\EntitiyLayer.pdb
