@@ -1520,14 +1520,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "EntitiyLayer/1.0.0": {
+      "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/EntitiyLayer.dll": {}
+          "bin/placeholder/EntityLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EntitiyLayer.dll": {}
+          "bin/placeholder/EntityLayer.dll": {}
         }
       }
     }
@@ -5798,15 +5798,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "EntitiyLayer/1.0.0": {
+    "EntityLayer/1.0.0": {
       "type": "project",
-      "path": "../EntitiyLayer/EntitiyLayer.csproj",
-      "msbuildProject": "../EntitiyLayer/EntitiyLayer.csproj"
+      "path": "../EntitiyLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntitiyLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "EntitiyLayer >= 1.0.0",
+      "EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.13",
@@ -5840,8 +5840,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-              "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj"
+            "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj"
             }
           }
         }

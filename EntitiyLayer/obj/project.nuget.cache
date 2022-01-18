@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V1H8vkEDyLIhXF9FY7p2u5SO7jgHySmspV/LNtmBz6rJiMCqXuSwAa1yAV/VwHHF7/4dbz6aipOYMGdDXxCubA==",
+  "dgSpecHash": "MZb+DnuHSh8atcgdOgmhD+4AN3W4houXx15dBymxOY6NQU0Ey2kMSP1N9Z6SrAxh79NVuaVhKUBbXo89RgH6Gw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj",
+  "projectFilePath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj",
-      "projectName": "EntitiyLayer",
-      "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj",
+      "projectUniqueName": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj",
+      "projectName": "EntityLayer",
+      "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj",
       "packagesPath": "C:\\Users\\busra\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\obj\\",
       "projectStyle": "PackageReference",

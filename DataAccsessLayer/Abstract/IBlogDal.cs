@@ -1,4 +1,4 @@
-﻿using EntitiyLayer.Concrete;
+﻿using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace DataAccsessLayer.Abstract
 {
     public interface IBlogDal : IGenericDal<Blog>
     {
-        
+        List<Blog> GetListWithCategory();
     }
 }

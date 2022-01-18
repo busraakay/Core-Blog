@@ -3,9 +3,7 @@ C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\Bu
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\DataAccsessLayer.dll
-C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntitiyLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\DataAccsessLayer.pdb
-C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntitiyLayer.pdb
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
@@ -14,4 +12,5 @@ C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\Bu
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
-C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb

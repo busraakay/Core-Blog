@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DataAccsessLayer/1.0.0": {
         "dependencies": {
-          "EntitiyLayer": "1.0.0",
+          "EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.Design": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
@@ -1069,9 +1069,9 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "EntitiyLayer/1.0.0": {
+      "EntityLayer/1.0.0": {
         "runtime": {
-          "EntitiyLayer.dll": {}
+          "EntityLayer.dll": {}
         }
       }
     }
@@ -1761,7 +1761,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "EntitiyLayer/1.0.0": {
+    "EntityLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

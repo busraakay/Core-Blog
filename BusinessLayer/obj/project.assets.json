@@ -1486,7 +1486,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "EntitiyLayer": "1.0.0",
+          "EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
         },
@@ -1497,14 +1497,14 @@
           "bin/placeholder/DataAccsessLayer.dll": {}
         }
       },
-      "EntitiyLayer/1.0.0": {
+      "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/EntitiyLayer.dll": {}
+          "bin/placeholder/EntityLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EntitiyLayer.dll": {}
+          "bin/placeholder/EntityLayer.dll": {}
         }
       }
     }
@@ -5724,16 +5724,16 @@
       "path": "../DataAccsessLayer/DataAccsessLayer.csproj",
       "msbuildProject": "../DataAccsessLayer/DataAccsessLayer.csproj"
     },
-    "EntitiyLayer/1.0.0": {
+    "EntityLayer/1.0.0": {
       "type": "project",
-      "path": "../EntitiyLayer/EntitiyLayer.csproj",
-      "msbuildProject": "../EntitiyLayer/EntitiyLayer.csproj"
+      "path": "../EntitiyLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntitiyLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAccsessLayer >= 1.0.0",
-      "EntitiyLayer >= 1.0.0"
+      "EntityLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5766,8 +5766,8 @@
             "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj": {
               "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj"
             },
-            "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-              "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj"
+            "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj"
             }
           }
         }

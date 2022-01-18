@@ -9,7 +9,7 @@
       "BusinessLayer/1.0.0": {
         "dependencies": {
           "DataAccsessLayer": "1.0.0",
-          "EntitiyLayer": "1.0.0"
+          "EntityLayer": "1.0.0"
         },
         "runtime": {
           "BusinessLayer.dll": {}
@@ -1042,7 +1042,7 @@
       },
       "DataAccsessLayer/1.0.0": {
         "dependencies": {
-          "EntitiyLayer": "1.0.0",
+          "EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
         },
@@ -1050,9 +1050,9 @@
           "DataAccsessLayer.dll": {}
         }
       },
-      "EntitiyLayer/1.0.0": {
+      "EntityLayer/1.0.0": {
         "runtime": {
-          "EntitiyLayer.dll": {}
+          "EntityLayer.dll": {}
         }
       }
     }
@@ -1726,7 +1726,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EntitiyLayer/1.0.0": {
+    "EntityLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

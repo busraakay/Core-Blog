@@ -1,4 +1,4 @@
-﻿using EntitiyLayer.Concrete;
+﻿using EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

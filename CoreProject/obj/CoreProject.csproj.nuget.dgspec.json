@@ -31,8 +31,8 @@
               "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj": {
                 "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj"
               },
-              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj"
+              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -95,8 +95,8 @@
               "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj": {
                 "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\DataAccsessLayer\\DataAccsessLayer.csproj"
               },
-              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj"
+              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -130,6 +130,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -178,8 +182,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj"
+              "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -234,12 +238,12 @@
         }
       }
     },
-    "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj": {
+    "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj",
-        "projectName": "EntitiyLayer",
-        "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntitiyLayer.csproj",
+        "projectUniqueName": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\busra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\busra\\source\\repos\\Intern\\CoreProject\\EntitiyLayer\\obj\\",
         "projectStyle": "PackageReference",
