@@ -17,5 +17,12 @@ namespace CoreProject.Controllers
             var values = bm.GetBlogListWithCategory();
             return View(values);
         }
+
+        public IActionResult BlogReadAll(int id)
+        {
+            ViewBag.i = id;
+            var values = bm.GetBlogById(id);
+            return View(values);
+        }
     }
 }

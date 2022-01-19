@@ -156,3 +156,14 @@ C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razo
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Partial3.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\EntityLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Blog\BlogReadAll.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Comment\PartialAddComment.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Comment\PartialCommentListByBlog.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentList\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\CoreProject.MvcApplicationPartsAssemblyInfo.cs
