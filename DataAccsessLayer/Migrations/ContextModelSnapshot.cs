@@ -19,7 +19,7 @@ namespace DataAccsessLayer.Migrations
                 .HasAnnotation("ProductVersion", "5.0.13")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.About", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.About", b =>
                 {
                     b.Property<int>("AboutID")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace DataAccsessLayer.Migrations
                     b.ToTable("Abouts");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Blog", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
                 {
                     b.Property<int>("BlogID")
                         .ValueGeneratedOnAdd()
@@ -77,14 +77,19 @@ namespace DataAccsessLayer.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
+                    b.Property<int>("WriterID")
+                        .HasColumnType("int");
+
                     b.HasKey("BlogID");
 
                     b.HasIndex("CategoryID");
 
+                    b.HasIndex("WriterID");
+
                     b.ToTable("Blogs");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Category", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Category", b =>
                 {
                     b.Property<int>("CategoryID")
                         .ValueGeneratedOnAdd()
@@ -105,7 +110,7 @@ namespace DataAccsessLayer.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Comment", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
                 {
                     b.Property<int>("CommentID")
                         .ValueGeneratedOnAdd()
@@ -137,7 +142,7 @@ namespace DataAccsessLayer.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Contact", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Contact", b =>
                 {
                     b.Property<int>("ContactID")
                         .ValueGeneratedOnAdd()
@@ -153,8 +158,8 @@ namespace DataAccsessLayer.Migrations
                     b.Property<string>("ContactMessage")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ContactStatus")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("ContactStatus")
+                        .HasColumnType("bit");
 
                     b.Property<string>("ContactSubject")
                         .HasColumnType("nvarchar(max)");
@@ -167,7 +172,25 @@ namespace DataAccsessLayer.Migrations
                     b.ToTable("Contacts");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Writer", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.NewsLetter", b =>
+                {
+                    b.Property<int>("MailID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("MailAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("MailStatus")
+                        .HasColumnType("bit");
+
+                    b.HasKey("MailID");
+
+                    b.ToTable("NewsLetters");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Property<int>("WriterID")
                         .ValueGeneratedOnAdd()
@@ -197,20 +220,28 @@ namespace DataAccsessLayer.Migrations
                     b.ToTable("Writers");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Blog", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
                 {
-                    b.HasOne("EntitiyLayer.Concrete.Category", "Category")
+                    b.HasOne("EntityLayer.Concrete.Category", "Category")
                         .WithMany("Blogs")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EntityLayer.Concrete.Writer", "Writer")
+                        .WithMany("Blogs")
+                        .HasForeignKey("WriterID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Writer");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Comment", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
                 {
-                    b.HasOne("EntitiyLayer.Concrete.Blog", "Blog")
+                    b.HasOne("EntityLayer.Concrete.Blog", "Blog")
                         .WithMany("Comments")
                         .HasForeignKey("BlogID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -219,12 +250,17 @@ namespace DataAccsessLayer.Migrations
                     b.Navigation("Blog");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Blog", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Blog", b =>
                 {
                     b.Navigation("Comments");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Concrete.Category", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Category", b =>
+                {
+                    b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Navigation("Blogs");
                 });

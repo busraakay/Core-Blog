@@ -22,6 +22,6 @@ namespace EntityLayer.Concrete
 
         public DateTime ContactDate { get; set; }
 
-        public string ContactStatus { get; set; }
+        public bool ContactStatus { get; set; }
     }
 }

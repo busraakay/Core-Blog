@@ -2055,6 +2055,7 @@
         "dependencies": {
           "DataAccsessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
+          "FluentValidation": "10.3.6",
           "FluentValidation.AspNetCore": "10.3.6"
         },
         "compile": {
