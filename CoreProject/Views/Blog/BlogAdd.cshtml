@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concrete.Blog
+
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+
+    <div class="grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Yeni Blog Ekle</h1>
+
+                <div class="form-group">
+                    <label>Blog Başlığı</label>
+                    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogTitle, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Blog Görseli</label>
+                    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogImage, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Blog Küçük Görseli</label>
+                    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogImage, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Kategori</label>
+                    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class = "form-control"})
+                </div>
+                <div class="form-group">
+                    <label>Blog İçeriği</label>
+                    @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.BlogContent, "", new { @class = "text-danger" })
+                </div>
+                <button class="btn btn-success">Yazıyı Kaydet</button>
+            </div>
+        </div>
+    </div>
+}
