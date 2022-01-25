@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CoreProject.ViewComponents.Category
 {
-    public class CategoryList : ViewComponent
+    public class CategoryListDashboard : ViewComponent
     {
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
 

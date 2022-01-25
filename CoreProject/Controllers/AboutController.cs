@@ -14,7 +14,7 @@ namespace CoreProject.Controllers
 
         public IActionResult Index()
         {
-            var values = abm.GetList();
+            var values = abm.TGetList();
             return View(values);
         }
 

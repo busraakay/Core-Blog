@@ -184,3 +184,7 @@ C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razo
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashboard\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryListDashboard\Default.cshtml.g.cs

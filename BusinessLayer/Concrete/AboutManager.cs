@@ -18,12 +18,12 @@ namespace BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
-        public About GetById(int id)
+        public About TGetById(int id)
         {
             return _aboutDal.GetByID(id);
         }
 
-        public List<About> GetList()
+        public List<About> TGetList()
         {
             return _aboutDal.GetAllList();
         }
