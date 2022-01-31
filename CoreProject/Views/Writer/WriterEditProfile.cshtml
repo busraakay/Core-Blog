@@ -1,0 +1,54 @@
+﻿@model EntityLayer.Concrete.Writer
+
+@{
+    ViewData["Title"] = "WriterEditProfile";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+@using (Html.BeginForm("WriterEditProfile", "Writer", FormMethod.Post))
+{
+    <div class="grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Yazar Profil Bilgileri Düzenleme</h1>
+                <br />
+                <div class="form-group">
+                    <label>Yazar ID</label>
+                    @Html.TextBoxFor(x => x.WriterID, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Adı</label>
+                    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterName, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Mail</label>
+                    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterMail, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Şifresi</label>
+                    @Html.PasswordFor(x => x.WriterPassword, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Yazar Görsel</label>
+                    <input type="file" name="img[]" class="file-upload-default">
+                    <div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled placeholder="Resim Yükle">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-gradient-primary" type="button">Yükle</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Yazar Hakkında</label>
+                    @Html.TextAreaFor(x => x.WriterAbout, 10, 3, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
+                </div>
+                <button class="btn btn-success">Değişiklikleri Kaydet</button>
+            </div>
+        </div>
+    </div>
+}
+

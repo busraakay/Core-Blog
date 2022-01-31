@@ -10,5 +10,6 @@
     <WebStackScaffolding_IsPartialViewSelected>True</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/WriterLayout.cshtml</WebStackScaffolding_LayoutPageFile>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>
