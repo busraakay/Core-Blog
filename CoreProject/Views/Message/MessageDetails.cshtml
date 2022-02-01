@@ -1,0 +1,29 @@
+﻿@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<div class="grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Mesaj Detayları</h1>
+            <div class="form-group">
+                <label>Mesaj ID</label>
+                <br />
+                <label class="form-control">@Html.DisplayFor(x => x.Message2ID)</label>
+            </div>
+            <div class="form-group">
+                <label>Mesaj Konusu</label>
+                <label class="form-control">@Html.DisplayFor(x => x.Message2Subject)</label>
+            </div>
+            <div class="form-group">
+                <label>Mesaj İçeriği</label>
+                <textarea class="form-control" style="height:500px">@Html.DisplayFor(x => x.Message2Details)</textarea>
+            </div>
+            <a href="/Message/InBox" class="btn btn-primary">Mesajlara Dön</a>
+        </div>
+    </div>
+</div>
+
+

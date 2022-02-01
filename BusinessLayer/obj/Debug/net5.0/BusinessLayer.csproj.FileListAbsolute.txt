@@ -14,4 +14,3 @@ C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\re
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
 C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
-C:\Users\busra\source\repos\Intern\CoreProject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete

@@ -15,7 +15,7 @@ namespace CoreProject.ViewComponents.Writer
         public IViewComponentResult Invoke()
         {
             var values = nm.TGetList();
-            return View();
+            return View(values);
         }
     }
 }
