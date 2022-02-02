@@ -195,3 +195,17 @@ C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razo
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Message\MessageDetails.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Message\InBox.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Shared\AdminLayout.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Views\Admin\PartialAdminNavbar.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\X.PagedList.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\CategoryAdd.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogListExcel.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogTitleListExcel.cshtml.g.cs

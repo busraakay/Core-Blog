@@ -10,7 +10,6 @@ namespace CoreProject.Controllers
 {
     public class DashboardController : Controller
     {
-        [AllowAnonymous]
         public IActionResult Index()
         {
             Context c = new Context();
@@ -19,7 +18,5 @@ namespace CoreProject.Controllers
             ViewBag.categoryCount = c.Categories.Count().ToString();
             return View();
         }
-
-
     }
 }
