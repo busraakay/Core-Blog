@@ -14,7 +14,7 @@ namespace CoreProject.ViewComponents.Comment
 
         public IViewComponentResult Invoke(int id)
         {
-            var values = cm.GetList(id);
+            var values = cm.GetListByBlog(id);
             return View(values);
         }
     }

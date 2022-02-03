@@ -209,3 +209,8 @@ C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\Exce
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\bin\Debug\net5.0\System.IO.Packaging.dll
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogListExcel.cshtml.g.cs
 C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogTitleListExcel.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Widget\Index.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic1\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic2\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic4\Default.cshtml.g.cs
+C:\Users\busra\source\repos\Intern\CoreProject\CoreProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Chart\Index.cshtml.g.cs

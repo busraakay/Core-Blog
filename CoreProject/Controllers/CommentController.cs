@@ -31,14 +31,14 @@ namespace CoreProject.Controllers
             p.CommentStatus = true;
             p.BlogID = 2;
 
-            cm.CommentAdd(p);
+            cm.TAdd(p);
 
             return PartialView();
         }
 
         public PartialViewResult PartialCommentListByBlog(int id)
         {
-            var values = cm.GetList(id);
+            var values = cm.GetListByBlog(id);
             return PartialView(values);
         }
     }
